@@ -1,0 +1,38 @@
+<div class="t-center">
+    <h2>
+        Fecha Actual: {{ fechaActual | date:'shortDate'}}
+    </h2>
+    <h2>
+        Cuánto falta para el 26/10/22 ?
+    </h2>
+</div>
+
+<div *ngIf="cuentaRegresiva" class="countdown-box">
+
+    <div class="circle">
+
+        <p>
+            {{ cuentaRegresiva.days }}d
+        </p>
+
+    </div>
+
+    <div class="circle">
+        <p>
+            {{ cuentaRegresiva.hours }}h
+        </p>
+    </div>
+    
+    <div class="circle">
+        <p>
+            {{ cuentaRegresiva.minutes }}m
+        </p>
+    </div>
+    
+    <div class="circle">
+        <p>
+            {{ cuentaRegresiva.seconds }}s
+        </p>
+    </div>
+
+</div>

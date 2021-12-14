@@ -1,0 +1,31 @@
+.countdown-box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.circle {
+
+    color: white;
+    font-size: x-large;
+    font-family: sans-serif;
+    background-color: rgb(58, 54, 54);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 100px;
+    
+    
+    margin: 10px;
+    
+}
+
+.t-center {
+    text-align: center;
+}
